@@ -20,3 +20,13 @@ could be separated by spaces but looks like a table for example
 dfrm <- read.table("somefile.txt")
 ```
 
+# Plotting
+
+## Line chart
+
+Remember you need to `transpose` you need a vector of numbers not a column of numbers so assuming we have list of columns or something we are going to use `t()` to transform it.
+
+```R
+plot(t(mydata["COLUMN1"]), t(mydata["COLUMN2"]))
+```
+
