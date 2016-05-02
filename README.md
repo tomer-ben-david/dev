@@ -2,4 +2,4 @@
 
 ## [R](R/README.md)
 
-## [NodeJS](NodeJS/README.md)
+## [NodeJS / Javascript](NodeJS/README.md)
