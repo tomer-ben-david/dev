@@ -24,6 +24,7 @@ dfrm <- read.table("somefile.txt")
 
 ```R
 http://stackoverflow.com/questions/17215789/extract-a-substring-in-r-according-to-a-pattern
+http://stackoverflow.com/questions/20075135/multiple-separators-for-the-same-file-input-r
 ```
 
 # Plotting
