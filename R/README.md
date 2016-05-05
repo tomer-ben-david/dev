@@ -7,6 +7,14 @@ lines = readLines("mylog.log")
 lines[c(grep(pattern = "Controller", x = lines))]
 ```
 
+## Regular expressions with grouping
+
+```R
+install.packages("stringr")
+s = c("(sometext :: 0.1231313213)", "(moretext :: 0.111222)")
+str_match(s, "\\((.*?) :: (0\\.[0-9]+)\\)")
+```
+
 ## Read table like text file
 
 could be separated by spaces but looks like a table for example
