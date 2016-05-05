@@ -20,6 +20,12 @@ could be separated by spaces but looks like a table for example
 dfrm <- read.table("somefile.txt")
 ```
 
+# Substring or match something in string of lines
+
+```R
+[http://stackoverflow.com/questions/17215789/extract-a-substring-in-r-according-to-a-pattern](http://stackoverflow.com/questions/17215789/extract-a-substring-in-r-according-to-a-pattern)
+```
+
 # Plotting
 
 ## Line chart
