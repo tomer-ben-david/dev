@@ -36,3 +36,10 @@ netWatcher.createServer(function(connection) {
 });
 
 ```
+## brew Could not symlink, /usr/local/bin is not writable
+
+When installing various packages for `nodejs` you might come up upon this, issue this:
+
+```bash
+sudo chown -R `whoami`:admin /usr/local/bin
+```
