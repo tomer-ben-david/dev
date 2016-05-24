@@ -1,3 +1,12 @@
+## Timestamp to hours since start day
+
+`awk '$3/3600000-int($3/86400000)*24+3<13 {print $3, $2, $4}'`
+
+1. `/3600000` - unix time in hours units.
+2. `/86400000` - unix time in days units.
+3. `*24` - start of today in hours units.
+4. `+3` - increase 3 hours to align to our timezone.
+
 ## TCPDUMP Textual
 
 ```bash
