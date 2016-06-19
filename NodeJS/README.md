@@ -1,3 +1,7 @@
+## Upgrade npm
+
+`sudo npm install npm -g`
+
 ## Concat two arrays
 
 ```javascript
