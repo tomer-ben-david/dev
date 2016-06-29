@@ -1,3 +1,7 @@
+## Get public key for example to https://google.com
+
+`$ openssl s_client -connect google.com:443 | openssl x509 -pubkey -noout`
+
 ## Timestamp to hours since start day
 
 `awk '$3/3600000-int($3/86400000)*24+3<13 {print $3, $2, $4}'`
