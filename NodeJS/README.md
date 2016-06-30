@@ -1,3 +1,22 @@
+## Read json from file
+
+```javascript
+var json = require('./resources/test.json');
+
+for (var row in json.rows) {
+    var rowvalue = json.rows[row].key;
+    if (rowvalue.indexOf("conf") != -1)
+        console.log(rowvalue);
+}
+
+// OR
+//Object.keys(json.rows).forEach(function(k){
+//    var id = json.rows[k].id;
+//    if (id.contains("conf"))
+//        console.log(id);
+//    });
+```
+
 ## Upgrade npm
 
 `sudo npm install npm -g`
