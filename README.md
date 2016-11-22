@@ -1,5 +1,7 @@
 # dev
 
+## [SQL](sql/README.md)
+
 ## [Linux](linux/README.md)
 
 ## [R](R/README.md)
