@@ -1,3 +1,7 @@
+## Pass result of `awk` into `kill` or another command
+
+`docker ps -a | grep houston | awk '{print $1}' | xargs docker rm`
+
 ## Get public key for example to https://google.com
 
 `$ openssl s_client -connect google.com:443 | openssl x509 -pubkey -noout`
